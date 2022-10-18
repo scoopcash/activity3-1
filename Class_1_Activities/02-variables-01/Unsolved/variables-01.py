@@ -15,78 +15,78 @@ meaning that any code commented out is ignored.
 # Topic: Strings
 
 # Create a variable named `subject` with no value (None).
-
+subject = 0
 
 # Assign a value of "Programmers to the variable `subject`.
-
+subject = "Programers"
 
 # Create a variable, `first_name`, and assign it a value of an empty string.
-
+first_name = ""
 
 # Assign a value of "Ada" to the variable `first_name`.
-
+first_name = "Ada"
 
 # Create a variable, `last_name`, and assign it a value of a string, "Lovelace".
-
+last_name = "Lovelace"
 
 # Create a variable, `full_name`, and assign it a value of the combination of `first_name` and `last_name` with a space.
-
+full_name = (first_name, last_name)
 
 # Create a variable, `profession`, and assign it a value of a string, "Computer Programmer".
-
+profession = "Computer Programmer"
 
 # Create a variable, `known_for`, and assign it a value of a string, "First Computer Programmer".
-
+known_for = "First Computer Programmer"
 
 # Create a variable, `first_algorithm`, and assign it a value of a string, "Analytical Engine".
-
+first_algorithm = "Analytical Engine"
 
 # Create a variable, `city_location`, and assign it a value of a string, "London".
-
+city_location = "London"
 
 # Create a variable, `country_location`, and assign it a value of a string, "England".
-
+country_location = "England"
 
 # Create a variable, `nationality`, and assign it a value of a string, "British".
-
+nationality = "British"
 
 
 # Topic: Integers
 
 # Create a variable, `birth_year`, and assign it with an integer of 1815.
-
+birth_year = 1815
 
 # Create a variable, `death_year`, and assign it with an integer of 1852.
-
+death_year = 1852
 
 # Create a variable, `age_at_passing`, and assign it a value of death_year minus birth_year.
-
+age_at_passing = death_year - birth_year
 
 # Create a variable, `year_of_publish`, and assign it with an integer of 1842.
-
+year_of_publish = 1842
 
 
 #Topic: Print
 
 # Print: "First Name: " and `first_name`.
-
+print(f"First Name:  {first_name}")
 
 # Print: "Last Name: " and `last_name`.
-
+print(f"Last Name:  {last_name}")
 
 # Print: "Profession: " and `profession`.
-
+print(f"Profession:  {profession}")
 
 # Print: "BirthYear: " and `birth_year`.
-
+print(f"BirthYear:  {birth_year}")
 
 
 #Topic: Concat Values
 
 # Create and print a variable, `statement_one`, by assigning it a value of a concatenated string:
 # "Programmers: Ada Lovelace is a British Computer Programmer born in 1815."
-
-
+statement_one = f"{subject}: {first_name} {last_name} is a {nationality} {profession} born in {birth_year}"
+print(statement_one)
 # Create and print a variable, `statement_two`, by assigning it a value of a concatenated string:
 # "She is commonly referred to as the First Computer Programmer."
 
