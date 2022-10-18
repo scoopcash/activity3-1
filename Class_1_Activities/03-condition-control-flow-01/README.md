@@ -7,11 +7,13 @@ In this activity, you will review variable declaration and conditionals.
 Open the [starter file](Unsolved/condition-control-flow-01.py) and perform the following:
 
 1. Create a list called `farm` with the elements "pig", "cow", "chicken", "dog", "horse", "sheep".
-
+farm = [pig, cow, chicken, dog, horse, sheep]
 2. Write an if statement that prints the string "RWAR!" if the first element of `farm` is NOT "Godzilla".
-
+if farm not "Godzilla"
+    print (f"RAWR")
 3. Write an else-if statement that prints the string "SCREECH!" if the last element of `farm` is "Mothra".
-
+elif "Mothra
+    print (f"SCREECH"
 4. Else, print the string "This animal is neither Godzilla nor Mothra!"
 
 5. Declare a variable named `dog` with a string of "Spot".
