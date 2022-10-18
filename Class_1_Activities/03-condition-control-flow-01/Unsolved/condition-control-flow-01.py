@@ -1,12 +1,19 @@
 # Create a list called 'farm' with the elements "pig", "cow", "chicken", "dog", "horse", "sheep".
-
+farm = ["pig", "cow", "chicken", "dog", "horse", "sheep"]
 
 # Write an if statement that prints the string "RWAR!" if the first element of farm is NOT "Godzilla".
 
+if farm[0] != "Godzilla":
+    print ("RWAR!")
+
 # Write an else if statement that prints the string "SCREECH!" if the last element of farm is "Mothra".
-
+elif farm[-1] == "Mothra":
+    print ("SCREECH!")
+    
 # Else, print the string "This animal is neither Godzilla nor Mothra!".
-
+else:
+    print("This animal is neither Godzilla nor Mothra!")
+    
 
 # Declare a variable named 'dog' with a string of "Spot".
 
