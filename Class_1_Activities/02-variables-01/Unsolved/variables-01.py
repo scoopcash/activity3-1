@@ -15,6 +15,10 @@ meaning that any code commented out is ignored.
 # Topic: Strings
 
 # Create a variable named `subject` with no value (None).
+from os import stat
+from turtle import pu, st
+
+
 subject = 0
 
 # Assign a value of "Programmers to the variable `subject`.
@@ -89,12 +93,14 @@ statement_one = f"{subject}: {first_name} {last_name} is a {nationality} {profes
 print(statement_one)
 # Create and print a variable, `statement_two`, by assigning it a value of a concatenated string:
 # "She is commonly referred to as the First Computer Programmer."
-
+statement_two = f"She is commonly referred to as the {known_for}."
+print(statement_two)
 
 # Create and print a variable, `statement_three`, by assigning it a value of a concatenated string:
 # "In 1842 she published the first Algorithm, the Analytical Engine, at the age of 27."
-
-
+statement_three = f"In {year_of_publish} she published the first Algorithm, {first_algorithm}, at the age of 27."
+print(statement_three)
 # Create and print a variable, `statement_four`, by assigning it a value of a concatenated string:
 # "She was a British Citizen who lived in London, England until her passing in 1852 at the age of 37."
-
+statement_four = f"She was a {nationality} Citizen who lived in {city_location}, {country_location} until her passing in {death_year} at the age of {age_at_passing}"
+print(statement_four)

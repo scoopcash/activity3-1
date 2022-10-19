@@ -11,6 +11,8 @@ farm = [pig, cow, chicken, dog, horse, sheep]
 2. Write an if statement that prints the string "RWAR!" if the first element of `farm` is NOT "Godzilla".
 if farm not "Godzilla"
     print (f"RAWR")
+
+
 3. Write an else-if statement that prints the string "SCREECH!" if the last element of `farm` is "Mothra".
 elif "Mothra
     print (f"SCREECH"
